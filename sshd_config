@@ -1,0 +1,17 @@
+Port 22
+AddressFamily any
+PermitRootLogin without-password
+StrictModes no
+MaxAuthTries 20
+MaxSessions 20
+PubkeyAuthentication yes
+PasswordAuthentication no
+UsePrivilegeSeparation no
+UsePAM yes
+AllowAgentForwarding yes
+AllowTcpForwarding yes
+X11Forwarding no
+PermitTTY yes
+PrintMotd no
+PrintLastLog no
+TCPKeepAlive yes
